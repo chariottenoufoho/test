@@ -29,5 +29,5 @@ async def welcome(num: Number):
     return{f"Request confirmation: prod is {a*b}!"}
 
 if __name__=='__main__':
-    uvicorn.run(app, host='127.0.0.1', port=8802)
+    uvicorn.run(app, host='0.0.0.1', port=8000)
     
